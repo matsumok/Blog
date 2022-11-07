@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'VuePress Blog Example',
+  title: 'Matsumok Tech Blog',
   description: 'This is a blog example built by VuePress',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
@@ -29,11 +29,7 @@ module.exports = {
       contact: [
         {
           type: 'github',
-          link: 'https://github.com/ulivz',
-        },
-        {
-          type: 'twitter',
-          link: 'https://twitter.com/_ulivz',
+          link: 'https://github.com/matsumok',
         },
       ],
       copyright: [
@@ -47,5 +43,6 @@ module.exports = {
         },
       ],
     },
+    dateFormat: 'YYYY-MM-DD',
   },
 }
