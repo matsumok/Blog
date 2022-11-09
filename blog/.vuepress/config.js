@@ -2,6 +2,7 @@ module.exports = {
   title: 'Matsumok Tech Blog',
   description: 'This is a blog example built by VuePress',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
+  host: "localhost",
   themeConfig: {
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#modifyblogpluginoptions
@@ -13,6 +14,10 @@ module.exports = {
      * Ref: https://vuepress-theme-blog.ulivz.com/#nav
      */
     nav: [
+      {
+        text: 'About',
+        link: '/about/',
+      },
       {
         text: 'Blog',
         link: '/',
@@ -34,11 +39,7 @@ module.exports = {
       ],
       copyright: [
         {
-          text: 'Privacy Policy',
-          link: 'https://policies.google.com/privacy?hl=en-US',
-        },
-        {
-          text: 'MIT Licensed | Copyright © 2018-present Vue.js',
+          text: 'MIT Licensed | Copyright © 2022 Matsumok',
           link: '',
         },
       ],
